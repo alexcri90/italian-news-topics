@@ -1,0 +1,63 @@
+---
+layout: default
+title: Informazioni
+---
+
+{% include "header.njk" %}
+
+<section class="mb-5">
+  <h2 class="mb-4">Informazioni sul Progetto</h2>
+  
+  <div class="card mb-4">
+    <div class="card-body">
+      <h3 class="h5 mb-3">Cos'è "Tendenze Notizie Italiane"?</h3>
+      <p>
+        Questo progetto analizza quotidianamente i principali quotidiani italiani online 
+        per identificare gli argomenti di maggiore tendenza. Utilizzando tecniche di 
+        Natural Language Processing (NLP), il sistema estrae entità nominate (persone, 
+        organizzazioni, luoghi) e parole chiave per evidenziare i temi più ricorrenti 
+        nell'informazione italiana.
+      </p>
+      
+      <h3 class="h5 mb-3 mt-4">Come funziona?</h3>
+      <p>
+        Il processo di analisi avviene in diverse fasi:
+      </p>
+      <ol>
+        <li><strong>Raccolta dati:</strong> Articoli raccolti dalle principali testate italiane</li>
+        <li><strong>Estrazione del testo:</strong> Il contenuto degli articoli viene estratto e pulito</li>
+        <li><strong>Analisi NLP:</strong> Utilizzo di tecniche di elaborazione del linguaggio naturale per identificare entità e parole chiave</li>
+        <li><strong>Visualizzazione:</strong> I risultati vengono presentati tramite grafici e statistiche</li>
+      </ol>
+      
+      <h3 class="h5 mb-3 mt-4">Tecnologie Utilizzate</h3>
+      <p>
+        Il progetto è stato realizzato utilizzando diverse tecnologie:
+      </p>
+      <ul>
+        <li><strong>Python:</strong> Per la raccolta e l'analisi dei dati</li>
+        <li><strong>spaCy:</strong> Libreria di NLP con supporto per la lingua italiana</li>
+        <li><strong>11ty:</strong> Static site generator per la creazione del sito web</li>
+        <li><strong>Chart.js:</strong> Per la visualizzazione dei dati</li>
+        <li><strong>GitHub Pages:</strong> Per l'hosting gratuito del sito web</li>
+        <li><strong>GitHub Actions:</strong> Per l'automazione dell'aggiornamento quotidiano</li>
+      </ul>
+      
+      <h3 class="h5 mb-3 mt-4">Note Etiche</h3>
+      <p>
+        Questo progetto rispetta le regole di web scraping etico:
+      </p>
+      <ul>
+        <li>Utilizzo di RSS feed quando disponibili</li>
+        <li>Rispetto dei file robots.txt</li>
+        <li>Rate limiting per non sovraccaricare i server</li>
+        <li>Raccolta limitata di dati, solo per scopi di analisi</li>
+      </ul>
+      <p>
+        Il progetto ha finalità puramente educative e di portfolio.
+      </p>
+    </div>
+  </div>
+</section>
+
+{% include "footer.njk" %}

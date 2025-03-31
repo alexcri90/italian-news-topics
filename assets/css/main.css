@@ -1,0 +1,76 @@
+/* Main styling for Italian News Topics website */
+
+body {
+    font-family: 'Helvetica Neue', Arial, sans-serif;
+    line-height: 1.6;
+    color: #333;
+  }
+  
+  h1, h2, h3, h4, h5, h6 {
+    font-weight: 600;
+  }
+  
+  /* Header and footer styles */
+  header {
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  footer {
+    border-top: 1px solid #eee;
+  }
+  
+  /* Card styling */
+  .card {
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+    border-radius: 6px;
+    border: 1px solid #eaeaea;
+  }
+  
+  .card-header {
+    background-color: #f8f9fa;
+    border-bottom: 1px solid #eaeaea;
+  }
+  
+  /* Chart container */
+  .chart-container {
+    margin: 0 auto;
+  }
+  
+  /* Tag cloud styles */
+  #keywordsCloud {
+    text-align: center;
+    line-height: 1.8;
+  }
+  
+  .keyword-tag {
+    display: inline-block;
+    margin: 0.2em 0.4em;
+    color: #495057;
+    transition: all 0.2s ease;
+  }
+  
+  .keyword-tag:hover {
+    color: #007bff;
+    transform: scale(1.1);
+  }
+  
+  /* Responsive adjustments */
+  @media (max-width: 768px) {
+    h2 {
+      font-size: 1.6rem;
+    }
+    
+    .chart-container {
+      height: 300px !important;
+    }
+  }
+  
+  /* Animation for charts */
+  @keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
+  }
+  
+  .chart-container canvas {
+    animation: fadeIn 1s ease;
+  }
