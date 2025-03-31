@@ -1,0 +1,8 @@
+flowchart TD
+    A[Data Collection\nPython + BeautifulSoup] -->|Raw Articles| B[Text Analysis\nNLP with spaCy]
+    B -->|Topic Data| C[Data Storage\nJSON Files]
+    C -->|Daily Data| D[Static Site Generation\n11ty/Jekyll]
+    D -->|HTML/CSS/JS| E[GitHub Pages\nFree Hosting]
+    F[GitHub Actions\nScheduled Workflow] -->|Triggers Daily| A
+    F -->|Triggers Build| D
+    F -->|Deploys Site| E

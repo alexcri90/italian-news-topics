@@ -1,0 +1,1027 @@
+{
+  "date": "2025-03-31",
+  "total_articles": 46,
+  "sources": [
+    "Il Fatto Quotidiano",
+    "Corriere della Sera",
+    "La Repubblica",
+    "Il Sole 24 Ore",
+    "La Stampa"
+  ],
+  "top_entities": [
+    {
+      "text": "Italia",
+      "count": 24
+    },
+    {
+      "text": "Spinelli",
+      "count": 23
+    },
+    {
+      "text": "Genova",
+      "count": 15
+    },
+    {
+      "text": "Mediobanca",
+      "count": 14
+    },
+    {
+      "text": "Tesla",
+      "count": 11
+    },
+    {
+      "text": "Fedez",
+      "count": 10
+    },
+    {
+      "text": "Roma",
+      "count": 9
+    },
+    {
+      "text": "Giovanni Toti",
+      "count": 9
+    },
+    {
+      "text": "Milano",
+      "count": 7
+    },
+    {
+      "text": "Stato",
+      "count": 7
+    },
+    {
+      "text": "Torino",
+      "count": 6
+    },
+    {
+      "text": "Diario Politico",
+      "count": 6
+    },
+    {
+      "text": "Iovino",
+      "count": 6
+    },
+    {
+      "text": "Paese",
+      "count": 6
+    },
+    {
+      "text": "Stati Uniti",
+      "count": 6
+    },
+    {
+      "text": "Istat",
+      "count": 6
+    },
+    {
+      "text": "Generali",
+      "count": 6
+    },
+    {
+      "text": "Carabinieri",
+      "count": 5
+    },
+    {
+      "text": "Liguria",
+      "count": 5
+    },
+    {
+      "text": "Procura",
+      "count": 5
+    },
+    {
+      "text": "Vovchansk",
+      "count": 5
+    },
+    {
+      "text": "Paola Motta",
+      "count": 5
+    },
+    {
+      "text": "Comune",
+      "count": 5
+    },
+    {
+      "text": "Minenna",
+      "count": 5
+    },
+    {
+      "text": "Ucraina",
+      "count": 4
+    },
+    {
+      "text": "Napoli",
+      "count": 4
+    },
+    {
+      "text": "Firenze",
+      "count": 4
+    },
+    {
+      "text": "Europa",
+      "count": 4
+    },
+    {
+      "text": "Signorini",
+      "count": 4
+    },
+    {
+      "text": "Aldo Spinelli",
+      "count": 4
+    },
+    {
+      "text": "Toti",
+      "count": 4
+    },
+    {
+      "text": "Cozzani",
+      "count": 4
+    },
+    {
+      "text": "Ansa",
+      "count": 4
+    },
+    {
+      "text": "The Club",
+      "count": 4
+    },
+    {
+      "text": "Instagram",
+      "count": 4
+    },
+    {
+      "text": "Forza Italia",
+      "count": 4
+    },
+    {
+      "text": "Kharkiv",
+      "count": 4
+    },
+    {
+      "text": "Del Vecchio",
+      "count": 4
+    },
+    {
+      "text": "Caltagirone",
+      "count": 4
+    },
+    {
+      "text": "Novecento",
+      "count": 4
+    },
+    {
+      "text": "Chiedo",
+      "count": 3
+    },
+    {
+      "text": "Russia",
+      "count": 3
+    },
+    {
+      "text": "Bologna",
+      "count": 3
+    },
+    {
+      "text": "Podcast",
+      "count": 3
+    },
+    {
+      "text": "Claudio Burlando",
+      "count": 3
+    },
+    {
+      "text": "Paolo Signorini",
+      "count": 3
+    },
+    {
+      "text": "Corriere Della Sera",
+      "count": 3
+    },
+    {
+      "text": "Ponte Morandi",
+      "count": 3
+    },
+    {
+      "text": "Matteo Cozzani",
+      "count": 3
+    },
+    {
+      "text": "Covid",
+      "count": 3
+    }
+  ],
+  "top_keywords": [
+    {
+      "text": "italia",
+      "count": 33
+    },
+    {
+      "text": "italiano",
+      "count": 28
+    },
+    {
+      "text": "spinelli",
+      "count": 28
+    },
+    {
+      "text": "presidente",
+      "count": 28
+    },
+    {
+      "text": "toti",
+      "count": 27
+    },
+    {
+      "text": "aumento",
+      "count": 23
+    },
+    {
+      "text": "euro",
+      "count": 23
+    },
+    {
+      "text": "pubblico",
+      "count": 22
+    },
+    {
+      "text": "genova",
+      "count": 21
+    },
+    {
+      "text": "politico",
+      "count": 21
+    },
+    {
+      "text": "dato",
+      "count": 20
+    },
+    {
+      "text": "vittima",
+      "count": 17
+    },
+    {
+      "text": "politica",
+      "count": 17
+    },
+    {
+      "text": "clima",
+      "count": 17
+    },
+    {
+      "text": "autorità",
+      "count": 16
+    },
+    {
+      "text": "marzo",
+      "count": 16
+    },
+    {
+      "text": "articolo",
+      "count": 16
+    },
+    {
+      "text": "vero",
+      "count": 16
+    },
+    {
+      "text": "strada",
+      "count": 15
+    },
+    {
+      "text": "numero",
+      "count": 15
+    },
+    {
+      "text": "base",
+      "count": 15
+    },
+    {
+      "text": "storia",
+      "count": 15
+    },
+    {
+      "text": "nuovo",
+      "count": 15
+    },
+    {
+      "text": "servizio",
+      "count": 15
+    },
+    {
+      "text": "legge",
+      "count": 14
+    },
+    {
+      "text": "storico",
+      "count": 14
+    },
+    {
+      "text": "governatore",
+      "count": 14
+    },
+    {
+      "text": "area",
+      "count": 14
+    },
+    {
+      "text": "economia",
+      "count": 14
+    },
+    {
+      "text": "mediobanca",
+      "count": 14
+    },
+    {
+      "text": "carabiniere",
+      "count": 13
+    },
+    {
+      "text": "zona",
+      "count": 13
+    },
+    {
+      "text": "centro",
+      "count": 13
+    },
+    {
+      "text": "regione",
+      "count": 13
+    },
+    {
+      "text": "confronto",
+      "count": 13
+    },
+    {
+      "text": "atto",
+      "count": 13
+    },
+    {
+      "text": "aprile",
+      "count": 13
+    },
+    {
+      "text": "punto",
+      "count": 13
+    },
+    {
+      "text": "popolazione",
+      "count": 13
+    },
+    {
+      "text": "altro",
+      "count": 12
+    },
+    {
+      "text": "ultimo",
+      "count": 12
+    },
+    {
+      "text": "settimana",
+      "count": 12
+    },
+    {
+      "text": "porto",
+      "count": 12
+    },
+    {
+      "text": "sindaco",
+      "count": 12
+    },
+    {
+      "text": "cittadino",
+      "count": 12
+    },
+    {
+      "text": "diritto",
+      "count": 12
+    },
+    {
+      "text": "notizia",
+      "count": 11
+    },
+    {
+      "text": "mese",
+      "count": 11
+    },
+    {
+      "text": "ragazzo",
+      "count": 11
+    },
+    {
+      "text": "speranza",
+      "count": 11
+    },
+    {
+      "text": "reato",
+      "count": 11
+    },
+    {
+      "text": "famiglia",
+      "count": 11
+    },
+    {
+      "text": "piccolo",
+      "count": 11
+    },
+    {
+      "text": "incidente",
+      "count": 11
+    },
+    {
+      "text": "evento",
+      "count": 11
+    },
+    {
+      "text": "fuoco",
+      "count": 11
+    },
+    {
+      "text": "giovanni",
+      "count": 11
+    },
+    {
+      "text": "prossimo",
+      "count": 11
+    },
+    {
+      "text": "capo",
+      "count": 11
+    },
+    {
+      "text": "audio",
+      "count": 11
+    },
+    {
+      "text": "tesla",
+      "count": 11
+    },
+    {
+      "text": "sera",
+      "count": 10
+    },
+    {
+      "text": "corso",
+      "count": 10
+    },
+    {
+      "text": "periodo",
+      "count": 10
+    },
+    {
+      "text": "precedente",
+      "count": 10
+    },
+    {
+      "text": "polizia",
+      "count": 10
+    },
+    {
+      "text": "arma",
+      "count": 10
+    },
+    {
+      "text": "indagine",
+      "count": 10
+    },
+    {
+      "text": "situazione",
+      "count": 10
+    },
+    {
+      "text": "comune",
+      "count": 10
+    },
+    {
+      "text": "intervento",
+      "count": 10
+    },
+    {
+      "text": "europeo",
+      "count": 10
+    },
+    {
+      "text": "portuale",
+      "count": 10
+    },
+    {
+      "text": "fondo",
+      "count": 10
+    },
+    {
+      "text": "livello",
+      "count": 10
+    },
+    {
+      "text": "giudice",
+      "count": 10
+    },
+    {
+      "text": "struttura",
+      "count": 10
+    },
+    {
+      "text": "fondazione",
+      "count": 10
+    },
+    {
+      "text": "fedez",
+      "count": 10
+    },
+    {
+      "text": "versione",
+      "count": 10
+    },
+    {
+      "text": "lettura",
+      "count": 10
+    },
+    {
+      "text": "crescita",
+      "count": 10
+    },
+    {
+      "text": "prezzo",
+      "count": 10
+    },
+    {
+      "text": "azionista",
+      "count": 10
+    },
+    {
+      "text": "falso",
+      "count": 9
+    },
+    {
+      "text": "auto",
+      "count": 9
+    },
+    {
+      "text": "sabato",
+      "count": 9
+    },
+    {
+      "text": "notte",
+      "count": 9
+    },
+    {
+      "text": "roma",
+      "count": 9
+    },
+    {
+      "text": "variazione",
+      "count": 9
+    },
+    {
+      "text": "milano",
+      "count": 9
+    },
+    {
+      "text": "effetto",
+      "count": 9
+    },
+    {
+      "text": "immagine",
+      "count": 9
+    },
+    {
+      "text": "procura",
+      "count": 9
+    },
+    {
+      "text": "azione",
+      "count": 9
+    },
+    {
+      "text": "torino",
+      "count": 9
+    },
+    {
+      "text": "diverso",
+      "count": 9
+    },
+    {
+      "text": "maggio",
+      "count": 9
+    },
+    {
+      "text": "finanziamento",
+      "count": 9
+    },
+    {
+      "text": "barca",
+      "count": 9
+    }
+  ],
+  "top_entities_by_source": {
+    "La Repubblica": [
+      {
+        "text": "Carabinieri",
+        "count": 3
+      },
+      {
+        "text": "Napoli",
+        "count": 3
+      },
+      {
+        "text": "Tg1",
+        "count": 2
+      },
+      {
+        "text": "Noemi Fiordilino",
+        "count": 2
+      },
+      {
+        "text": "Roma",
+        "count": 2
+      },
+      {
+        "text": "Bologna",
+        "count": 2
+      },
+      {
+        "text": "Firenze",
+        "count": 2
+      },
+      {
+        "text": "Procura Dei Minori",
+        "count": 2
+      },
+      {
+        "text": "Chiedo",
+        "count": 1
+      },
+      {
+        "text": "Ucraina",
+        "count": 1
+      },
+      {
+        "text": "Russia",
+        "count": 1
+      },
+      {
+        "text": "Noah Dridi",
+        "count": 1
+      },
+      {
+        "text": "Antonio Omar",
+        "count": 1
+      },
+      {
+        "text": "Farnesina",
+        "count": 1
+      },
+      {
+        "text": "Kiev",
+        "count": 1
+      },
+      {
+        "text": "Mio",
+        "count": 1
+      },
+      {
+        "text": "Vorrei",
+        "count": 1
+      },
+      {
+        "text": "Noemi",
+        "count": 1
+      },
+      {
+        "text": "Rai 2",
+        "count": 1
+      },
+      {
+        "text": "Sameh Youssef",
+        "count": 1
+      }
+    ],
+    "Corriere della Sera": [
+      {
+        "text": "Spinelli",
+        "count": 23
+      },
+      {
+        "text": "Genova",
+        "count": 15
+      },
+      {
+        "text": "Fedez",
+        "count": 10
+      },
+      {
+        "text": "Giovanni Toti",
+        "count": 9
+      },
+      {
+        "text": "Diario Politico",
+        "count": 6
+      },
+      {
+        "text": "Iovino",
+        "count": 6
+      },
+      {
+        "text": "Liguria",
+        "count": 5
+      },
+      {
+        "text": "Procura",
+        "count": 5
+      },
+      {
+        "text": "Vovchansk",
+        "count": 5
+      },
+      {
+        "text": "Signorini",
+        "count": 4
+      },
+      {
+        "text": "Aldo Spinelli",
+        "count": 4
+      },
+      {
+        "text": "Toti",
+        "count": 4
+      },
+      {
+        "text": "Cozzani",
+        "count": 4
+      },
+      {
+        "text": "The Club",
+        "count": 4
+      },
+      {
+        "text": "Forza Italia",
+        "count": 4
+      },
+      {
+        "text": "Kharkiv",
+        "count": 4
+      },
+      {
+        "text": "Podcast",
+        "count": 3
+      },
+      {
+        "text": "Claudio Burlando",
+        "count": 3
+      },
+      {
+        "text": "Paolo Signorini",
+        "count": 3
+      },
+      {
+        "text": "Corriere Della Sera",
+        "count": 3
+      }
+    ],
+    "Il Sole 24 Ore": [
+      {
+        "text": "Italia",
+        "count": 11
+      },
+      {
+        "text": "Tesla",
+        "count": 11
+      },
+      {
+        "text": "Istat",
+        "count": 6
+      },
+      {
+        "text": "Paola Motta",
+        "count": 5
+      },
+      {
+        "text": "Roma",
+        "count": 4
+      },
+      {
+        "text": "Paese",
+        "count": 3
+      },
+      {
+        "text": "Serracapriola",
+        "count": 3
+      },
+      {
+        "text": "Giorgia Meloni",
+        "count": 2
+      },
+      {
+        "text": "Stati Uniti",
+        "count": 2
+      },
+      {
+        "text": "Azione",
+        "count": 2
+      },
+      {
+        "text": "Occidente",
+        "count": 2
+      },
+      {
+        "text": "Trump",
+        "count": 2
+      },
+      {
+        "text": "Europa",
+        "count": 2
+      },
+      {
+        "text": "Palazzo Chigi",
+        "count": 2
+      },
+      {
+        "text": "Corona",
+        "count": 2
+      },
+      {
+        "text": "Poste Italiane",
+        "count": 2
+      },
+      {
+        "text": "Andrea Sempio",
+        "count": 2
+      },
+      {
+        "text": "Garlasco",
+        "count": 2
+      },
+      {
+        "text": "Albania",
+        "count": 2
+      },
+      {
+        "text": "Torrenova",
+        "count": 2
+      }
+    ],
+    "La Stampa": [
+      {
+        "text": "Italia",
+        "count": 7
+      },
+      {
+        "text": "Torino",
+        "count": 4
+      },
+      {
+        "text": "Piemonte",
+        "count": 3
+      },
+      {
+        "text": "Milano",
+        "count": 3
+      },
+      {
+        "text": "Catania",
+        "count": 3
+      },
+      {
+        "text": "Atp Finals",
+        "count": 3
+      },
+      {
+        "text": "Provincia Di Alessandria",
+        "count": 2
+      },
+      {
+        "text": "Green",
+        "count": 2
+      },
+      {
+        "text": "Caramba",
+        "count": 2
+      },
+      {
+        "text": "Musei Reali",
+        "count": 2
+      },
+      {
+        "text": "Vincenzo Tortora",
+        "count": 2
+      },
+      {
+        "text": "Di Balsamo",
+        "count": 2
+      },
+      {
+        "text": "Avventurato",
+        "count": 2
+      },
+      {
+        "text": "Paese",
+        "count": 2
+      },
+      {
+        "text": "Stato",
+        "count": 2
+      },
+      {
+        "text": "Nell’",
+        "count": 2
+      },
+      {
+        "text": "Selvatica",
+        "count": 2
+      },
+      {
+        "text": "Costantino Della Gherardesca",
+        "count": 2
+      },
+      {
+        "text": "Petra",
+        "count": 2
+      },
+      {
+        "text": "Sciacalli",
+        "count": 2
+      }
+    ],
+    "Il Fatto Quotidiano": [
+      {
+        "text": "Mediobanca",
+        "count": 14
+      },
+      {
+        "text": "Generali",
+        "count": 6
+      },
+      {
+        "text": "Minenna",
+        "count": 5
+      },
+      {
+        "text": "Italia",
+        "count": 5
+      },
+      {
+        "text": "Del Vecchio",
+        "count": 4
+      },
+      {
+        "text": "Caltagirone",
+        "count": 4
+      },
+      {
+        "text": "Novecento",
+        "count": 4
+      },
+      {
+        "text": "Comune",
+        "count": 4
+      },
+      {
+        "text": "Mps",
+        "count": 3
+      },
+      {
+        "text": "Montepaschi",
+        "count": 3
+      },
+      {
+        "text": "Piazzetta Cuccia",
+        "count": 3
+      },
+      {
+        "text": "Stato",
+        "count": 3
+      },
+      {
+        "text": "El Salvador",
+        "count": 3
+      },
+      {
+        "text": "Stati Uniti",
+        "count": 3
+      },
+      {
+        "text": "Casale",
+        "count": 3
+      },
+      {
+        "text": "Monte Dei Paschi Di Siena",
+        "count": 2
+      },
+      {
+        "text": "Siena",
+        "count": 2
+      },
+      {
+        "text": "Roma",
+        "count": 2
+      },
+      {
+        "text": "Alessandro Canali",
+        "count": 2
+      },
+      {
+        "text": "Canali",
+        "count": 2
+      }
+    ]
+  }
+}

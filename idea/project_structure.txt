@@ -1,0 +1,28 @@
+italian-news-topics/
+├── .github/
+│   └── workflows/
+│       └── daily-update.yml    # GitHub Actions workflow
+├── scraper/
+│   ├── __init__.py
+│   ├── scraper.py              # Web scraping code
+│   └── sources.py              # News sources configuration
+├── analysis/
+│   ├── __init__.py
+│   └── topic_analyzer.py       # NLP and topic extraction
+├── _data/                      # For 11ty
+│   └── topics.json             # Generated topic data
+├── _includes/                  # For 11ty
+│   ├── header.njk
+│   └── footer.njk
+├── _site/                      # Generated site (gitignored)
+├── assets/
+│   ├── css/
+│   │   └── main.css
+│   └── js/
+│       └── visualization.js    # Chart.js visualization code
+├── index.njk                   # Main page template
+├── about.njk                   # About page template
+├── .gitignore
+├── .eleventy.js                # 11ty configuration
+├── package.json                # Node dependencies
+└── requirements.txt            # Python dependencies
