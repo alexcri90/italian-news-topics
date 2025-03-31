@@ -7,13 +7,13 @@
   <meta name="description" content="Analisi giornaliera degli argomenti di tendenza sui principali quotidiani italiani">
   
   <!-- Favicon -->
-  <link rel="icon" href="/assets/img/favicon.ico">
+  <link rel="icon" href="{{ '/assets/img/favicon.ico' | url }}">
   
   <!-- Bootstrap CSS -->
-  <link rel="stylesheet" href="/assets/css/bootstrap.min.css">
+  <link rel="stylesheet" href="{{ '/assets/css/bootstrap.min.css' | url }}">
   
   <!-- Custom CSS -->
-  <link rel="stylesheet" href="/assets/css/main.css">
+  <link rel="stylesheet" href="{{ '/assets/css/main.css' | url }}">
 </head>
 <body>
   <header class="bg-dark text-white py-3">
@@ -21,17 +21,17 @@
       <div class="row align-items-center">
         <div class="col-md-6">
           <h1 class="h3 mb-0">
-            <a href="/" class="text-white text-decoration-none">Tendenze Notizie Italiane</a>
+            <a href="{{ '/' | url }}" class="text-white text-decoration-none">Tendenze Notizie Italiane</a>
           </h1>
         </div>
         <div class="col-md-6">
           <nav class="d-flex justify-content-end">
             <ul class="nav">
               <li class="nav-item">
-                <a class="nav-link text-white" href="/">Home</a>
+                <a class="nav-link text-white" href="{{ '/' | url }}">Home</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link text-white" href="/about/">Informazioni</a>
+                <a class="nav-link text-white" href="{{ '/about/' | url }}">Informazioni</a>
               </li>
             </ul>
           </nav>
@@ -70,13 +70,25 @@
   </footer>
   
   <!-- Bootstrap JS Bundle with Popper -->
-  <script src="/assets/js/bootstrap.bundle.min.js"></script>
+  <script src="{{ '/assets/js/bootstrap.bundle.min.js' | url }}"></script>
   <!-- Chart.js -->
-  <script src="/assets/js/chart.min.js"></script>
+  <script src="{{ '/assets/js/chart.min.js' | url }}"></script>
+  
+  <!-- Initialize topics data for JavaScript -->
+  <script>
+    window.topicsData = {
+      date: "{{ topics.date }}",
+      top_entities: {{ topics.top_entities | dump | safe }},
+      top_keywords: {{ topics.top_keywords | dump | safe }},
+      top_entities_by_source: {{ topics.top_entities_by_source | dump | safe }},
+      sources: {{ topics.sources | dump | safe }},
+      total_articles: {{ topics.total_articles }}
+    };
+  </script>
   
   {% if page.url == "/" %}
   <!-- Visualization JS only on homepage -->
-  <script src="/assets/js/visualization.js"></script>
+  <script src="{{ '/assets/js/visualization.js' | url }}"></script>
   {% endif %}
 </body>
 </html>

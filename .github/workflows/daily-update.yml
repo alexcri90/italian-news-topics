@@ -7,6 +7,12 @@ on:
   workflow_dispatch:
     # Allow manual triggering
 
+# Add this permissions block
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+
 jobs:
   update-topics:
     runs-on: ubuntu-latest
@@ -31,7 +37,7 @@ jobs:
         uses: actions/setup-node@v3
         with:
           node-version: '18'
-          cache: 'npm'
+          # Removed cache setting to avoid the error
       
       - name: Install Node.js dependencies
         run: npm ci
@@ -47,11 +53,14 @@ jobs:
       - name: Build site
         run: npm run build
       
-      - name: Deploy to GitHub Pages
-        uses: peaceiris/actions-gh-pages@v3
+      - name: Setup Pages
+        uses: actions/configure-pages@v4
+      
+      - name: Upload artifact
+        uses: actions/upload-pages-artifact@v3
         with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_dir: ./_site
-          user_name: 'github-actions[bot]'
-          user_email: 'github-actions[bot]@users.noreply.github.com'
-          commit_message: 'Update topics for ${{ github.event.repository.updated_at }}'
+          path: './_site'
+      
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4

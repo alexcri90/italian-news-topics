@@ -122,7 +122,7 @@ document.addEventListener('DOMContentLoaded', () => {
       const canvasId = `sourceChart${index + 1}`;
       const canvas = document.getElementById(canvasId);
       
-      if (!canvas) return;
+      if (!canvas) return; // Skip if canvas element doesn't exist
       
       const ctx = canvas.getContext('2d');
       
