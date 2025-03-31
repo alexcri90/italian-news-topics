@@ -1,8 +1,23 @@
 flowchart TD
-    A[Data Collection\nPython + BeautifulSoup] -->|Raw Articles| B[Text Analysis\nNLP with spaCy]
+    A[Data Collection\nPython + BeautifulSoup + Newspaper3k] -->|Raw Articles| B[Text Analysis\nNLP with spaCy]
     B -->|Topic Data| C[Data Storage\nJSON Files]
-    C -->|Daily Data| D[Static Site Generation\n11ty/Jekyll]
+    C -->|Daily Data| D[Static Site Generation\n11ty]
     D -->|HTML/CSS/JS| E[GitHub Pages\nFree Hosting]
     F[GitHub Actions\nScheduled Workflow] -->|Triggers Daily| A
     F -->|Triggers Build| D
     F -->|Deploys Site| E
+    
+    subgraph Frontend
+      G[Bootstrap UI] --- H[Chart.js Visualizations]
+      H --- I[Interactive Elements]
+      J[Responsive Design] --- G
+    end
+    
+    C -->|JSON Data| H
+    
+    style A fill:#f9d5e5,stroke:#333,stroke-width:2px
+    style B fill:#eeac99,stroke:#333,stroke-width:2px
+    style C fill:#e06377,stroke:#333,stroke-width:2px
+    style D fill:#c83349,stroke:#333,stroke-width:2px
+    style E fill:#5b9aa0,stroke:#333,stroke-width:2px
+    style F fill:#d6e1c7,stroke:#333,stroke-width:2px

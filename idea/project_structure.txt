@@ -1,28 +1,26 @@
-italian-news-topics/
+Copiaitalian-news-topics/
 ├── .github/
 │   └── workflows/
-│       └── daily-update.yml    # GitHub Actions workflow
+│       └── daily-update.yml    # GitHub Actions workflow with permissions
 ├── scraper/
-│   ├── __init__.py
-│   ├── scraper.py              # Web scraping code
+│   ├── scraper.py              # Web scraping code with ethical considerations
 │   └── sources.py              # News sources configuration
 ├── analysis/
-│   ├── __init__.py
-│   └── topic_analyzer.py       # NLP and topic extraction
-├── _data/                      # For 11ty
-│   └── topics.json             # Generated topic data
-├── _includes/                  # For 11ty
-│   ├── header.njk
-│   └── footer.njk
+│   └── topic_analyzer.py       # NLP and topic extraction logic
+├── _data/
+│   └── topics.json             # Generated topic data (or sample data)
+├── _includes/
+│   └── default.njk             # Main layout template
 ├── _site/                      # Generated site (gitignored)
 ├── assets/
 │   ├── css/
-│   │   └── main.css
+│   │   └── main.css            # Custom styling
 │   └── js/
 │       └── visualization.js    # Chart.js visualization code
-├── index.njk                   # Main page template
+├── index.njk                   # Home page template
 ├── about.njk                   # About page template
-├── .gitignore
-├── .eleventy.js                # 11ty configuration
+├── README.md                   # Project documentation
+├── .gitignore                  # Git ignore rules
+├── .eleventy.js                # 11ty configuration with pathPrefix
 ├── package.json                # Node dependencies
-└── requirements.txt            # Python dependencies
+└── requirements.txt            # Python dependencies including lxml[html_clean]
