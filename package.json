@@ -13,7 +13,7 @@
       "italian",
       "static-site"
     ],
-    "author": "Your Name",
+    "author": "Alexandre",
     "license": "MIT",
     "devDependencies": {
       "@11ty/eleventy": "^2.0.1"
